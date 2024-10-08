@@ -8,7 +8,8 @@ The outputs from part0, part1, part2, and part3 contained grammatical errors, wi
 
 However, If you're familiar with Morse code, you know it's composed of three symbols: a space (" "), a dash ("-"), and a dot (".").
 
-Note:
+**Note**:
+
 Each line break in the paragraph represented a space, and when combined with the dots and dashes, they formed a Morse code message.
 Upon extracting the morse code manually , you can get 
 
