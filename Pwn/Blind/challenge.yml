@@ -1,0 +1,60 @@
+name: "Blind"
+category: Pwn
+description: "Seriously?! is blind pwn even possible? only one way to find out :)<br><b>Author</b>: `Vigneswar`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: "nc pwn.1nf1n1ty.team 32739"
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{Haha_You_Found_me_b1ind}
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    # }
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    #     data: "case_insensitive",
+    # }
+    # - {
+    #     type: "regex",
+    #     content: "(.*)STUFF(.*)",
+    #     data: "case_insensitive",
+    # }
+
+tags:
+    - Pwn
+
+# hints:
+#     - {
+#         content: "This hint costs points",
+#         cost: 10
+#     }
+#     - This hint is free
+
+# Requirements are used to make a challenge require another challenge to be
+# solved before being available.
+# Can be removed if unused
+# Accepts challenge names as strings or challenge IDs as integers
+requirements:
+     - "Welcome"
+
+#     - "Are you alive"
+
+state: hidden
+
+version: "0.1"

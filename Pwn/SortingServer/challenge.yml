@@ -1,0 +1,62 @@
+name: "SortingServer"
+category: Pwn
+description: "Sorting numbers is hard, so i made a server to do it for us. Enter the numbers one per line then bo0M you get sorted numbers!!!<br><b>Author</b>: `Vigneswar`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: "nc pwn.1nf1n1ty.team 30648"
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{W3lc0m3_T0_R3m0te_pwn1ng!!!}
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    # }
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    #     data: "case_insensitive",
+    # }
+    # - {
+    #     type: "regex",
+    #     content: "(.*)STUFF(.*)",
+    #     data: "case_insensitive",
+    # }
+
+files:
+    - handout/SortingServer.zip
+tags:
+    - Pwn
+
+# hints:
+#     - {
+#         content: "This hint costs points",
+#         cost: 10
+#     }
+#     - This hint is free
+
+# Requirements are used to make a challenge require another challenge to be
+# solved before being available.
+# Can be removed if unused
+# Accepts challenge names as strings or challenge IDs as integers
+requirements:
+     - "Welcome"
+
+#     - "Are you alive"
+
+state: visible
+
+version: "0.1"

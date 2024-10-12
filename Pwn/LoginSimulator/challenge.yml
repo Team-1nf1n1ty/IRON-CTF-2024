@@ -1,0 +1,36 @@
+name: "LoginSimulator"
+category: Pwn
+description: "Can you break this unbreakable login system?<br><b>Author</b>: `Vigneswar`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: "nc pwn.1nf1n1ty.team 31293"
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{N0w_Th4t5_s0m3_S1ck_r3turn!}
+
+tags:
+    - pwn
+
+files:
+    - handout/LoginSimulator.zip
+
+requirements:
+     - "Welcome"
+
+state: visible
+
+version: "0.1"

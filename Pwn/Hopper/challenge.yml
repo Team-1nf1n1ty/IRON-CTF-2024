@@ -1,0 +1,36 @@
+name: "Hopper"
+category: Pwn
+description: "Hippety-hop... Hippety-hop your way to victory!<br><b>Author</b>: `Vigneswar`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: "nc pwn.1nf1n1ty.team 31886"
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{H0pP1ng_1s_C0ol!!!}
+
+tags:
+    - pwn
+
+files:
+    - handout/Hopper
+
+requirements:
+     - "Welcome"
+
+state: visible
+
+version: "0.1"
