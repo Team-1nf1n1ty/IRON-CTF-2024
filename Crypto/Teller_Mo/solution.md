@@ -58,7 +58,8 @@ while i<len(encoded):
     if (not isFound):
         break
 
-print(flag)```
+print(flag)
+```
 
 flag: ironCTF{the_gold_coin_is_hidden_in_the_bin}
 
