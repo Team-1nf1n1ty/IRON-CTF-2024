@@ -1,11 +1,11 @@
-### Teller Mo
+# Teller Mo
 
 This challenge invloves understanding the morellet cipher and its encoding scheme. To know more about the cipher, you can check https://codesandbox.io/p/sandbox/morellet-cipher-uzo6d?file=%2Fsrc%2FApp.vue this website out. Ideally how it works is, each letter is associated with a number and a corresponding color. The goal is find out the flag from the given number and image. The source code for the encoding scheme can be found at src>>components>>MorelletCroses.vue
 
-# Approach 1:
+## Approach 1:
 For those who don't want to code and prefer using the interface directly, you can go through the source code and manually assign characters for the array given in the source code and get the answer by typing it in the webiste and checking it.
 
-# Approach 2:
+## Approach 2:
 If you are person who believes in automation, then writing code is the way to go. This is the python solve script for the given challenge:
 
 
