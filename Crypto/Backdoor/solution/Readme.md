@@ -1,4 +1,4 @@
-## Backdoor
+# Backdoor
 
 The challenge is based on Dual-EC DRBG : https://en.wikipedia.org/wiki/Dual_EC_DRBG
 It was found that this pseudo random number generator could have a potential backdoor. Explained very well in this video : https://youtu.be/OkiVN6z60lg?si=MKt4577OB5V-3Ii-

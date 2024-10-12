@@ -23,15 +23,15 @@
 
 ## Crypto
 
-| Challenge                                   | Solves |
-| ------------------------------------------- | ------ |
-| [Algebra Exam](link_to_folder)              | 180    |
-| [Dantzig's Puzzle](Crypto/Dantzigs-Puzzle/) | 153    |
-| [Rivest, Shamir, Adleman 1](link_to_folder) | 62     |
-| [Rivest, Shamir, Adleman 2](link_to_folder) | 39     |
-| [Backdoor](link_to_folder)                  | 18     |
-| [Teller Mo](link_to_folder)                 | 11     |
-| [Minecraft cipher](link_to_folder)          | 8      |
+| Challenge                                                    | Solves |
+| ------------------------------------------------------------ | ------ |
+| [Algebra Exam](Crypto/Algebra-Exam/)                       | 180    |
+| [Dantzig's Puzzle](Crypto/Dantzigs-Puzzle/)                  | 153    |
+| [Rivest, Shamir, Adleman 1](Crypto/Rivest-Shamir-Adleman-1/) | 62     |
+| [Rivest, Shamir, Adleman 2](Crypto/Rivest-Shamir-Adleman-2/) | 39     |
+| [Backdoor](Crypto/Backdoor/)                                 | 18     |
+| [Teller Mo](Crypto/Teller_Mo/)                               | 11     |
+| [Minecraft cipher](Crypto/Minecraft-cipher/)                 | 8      |
 
 ## Forensics
 
