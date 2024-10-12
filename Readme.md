@@ -65,31 +65,31 @@
 
 ## PWN
 
-| Challenge                        | Solves |
-| -------------------------------- | ------ |
-| [Hopper](link_to_folder)         | 35     |
-| [SimpleNotes](link_to_folder)    | 22     |
-| [1nf1n1tyShop](link_to_folder)   | 15     |
-| [LoginSimulator](link_to_folder) | 12     |
-| [BountyHunter](link_to_folder)   | 12     |
-| [SecureNotes](link_to_folder)    | 5      |
-| [Blind](link_to_folder)          | 4      |
-| [SortingServer](link_to_folder)  | 1      |
+| Challenge                             | Solves |
+| ------------------------------------- | ------ |
+| [Hopper](PWN/Hopper/)                 | 35     |
+| [SimpleNotes](PWN/SimpleNotes/)       | 22     |
+| [1nf1n1tyShop](PWN/1nf1n1tyShop/)     | 15     |
+| [LoginSimulator](PWN/LoginSimulator/) | 12     |
+| [BountyHunter](PWN/BountyHunter)      | 12     |
+| [SecureNotes](PWN/SecureNotes/)       | 5      |
+| [Blind](PWN/Blind/)                   | 4      |
+| [SortingServer](PWN/SortingServer/)   | 1      |
 
 ## Reverse Engineering
 
 | Challenge                                  | Solves |
 | ------------------------------------------ | ------ |
 | [sELF Sufficient](link_to_folder)          | 22     |
-| [Big Lasagna](link_to_folder)              | 15     |
+| [Big Lasagna](Rev/BigLasagna/)             | 15     |
 | [rusty++_Nightmare](link_to_folder)        | 3      |
 | [Super Secure Login Shell](link_to_folder) | 2      |
 | [Multilingual Wonderland](link_to_folder)  | 0      |
 
 ## Game Hacking
 
-| Challenge                                        | Solves |
-| ------------------------------------------------ | ------ |
-| [gotta hack em all](link_to_folder)              | 28     |
-| [Maze Runner](link_to_folder)                    | 2      |
-| [Advance Cheat Detection System](link_to_folder) | 1      |
+| Challenge                                                              | Solves |
+| ---------------------------------------------------------------------- | ------ |
+| [gotta hack em all](Game/gotta-hack-em-all/)                           | 28     |
+| [Maze Runner](Game/Maze-Runner/)                                       | 2      |
+| [Advance Cheat Detection System](Game/Advance-Cheat-Detection-System/) | 1      |

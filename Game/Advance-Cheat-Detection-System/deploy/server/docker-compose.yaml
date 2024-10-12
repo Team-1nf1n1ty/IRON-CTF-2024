@@ -1,0 +1,7 @@
+services:
+  gameserver:
+    build: ./
+    ports:
+      - 8001:8000
+    environment:
+      - FLAG=ironCTF{T1ck_7ick_t1ck}

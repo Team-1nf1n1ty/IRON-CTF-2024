@@ -1,0 +1,37 @@
+name: "Maze Runner"
+category: Game Hacking
+description: "I made a impossible maze game no one can solve it do you wanna try<br><b>Authors</b>: `AbdulHaq` & `p3rplex3d`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: null
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{I_H0P3_Y0U_d1d_n0t_s0lv3_1t_by_h4nd}
+
+tags:
+    - Game Hacking
+
+files:
+    - handout/handout.zip
+    - handout/run.txt
+
+requirements:
+     - "Welcome"
+
+state: visible
+
+version: "0.1"

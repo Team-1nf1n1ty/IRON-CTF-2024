@@ -1,0 +1,7 @@
+services:
+  gameserver:
+    build: ./
+    ports:
+      - 8000:8000
+    environment:
+      - FLAG=ironCTF{I_H0P3_Y0U_d1d_n0t_s0lv3_1t_by_h4nd}

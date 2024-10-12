@@ -1,0 +1,36 @@
+name: "gotta hack em all"
+category: Game Hacking
+description: "Find the all parts of flag by hacking this.<br>ironCTF{Combine all flag parts}<br><b>Author</b>: `AbdulHaq`"
+
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: null
+
+attempts: 0
+
+flags:
+    - ironCTF{840c77995dd886cac6f9f9d4d6b501}
+
+tags:
+    - Game Hacking
+
+files:
+    - handout/hack-em-all.zip
+requirements:
+     - "Welcome"
+
+state: visible
+
+version: "0.1"
