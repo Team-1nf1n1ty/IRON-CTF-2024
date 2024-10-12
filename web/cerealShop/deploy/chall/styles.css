@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Choose a suitable font */
+    text-align: center; /* Center align text within the body */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+}
+
+h1 {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+.title-div {
+    width: 100%; /* Full width */
+    max-width: 100%; /* Ensure it covers the full width of the window */
+    height: 500px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px; /* Add some padding for better visual appeal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+form {
+    width: 100%; /* Make the form take the full width of the container */
+}
+
+label {
+    display: block; /* Place the label on a new line */
+    margin-bottom: 5px; /* Add some space below the label */
+}
