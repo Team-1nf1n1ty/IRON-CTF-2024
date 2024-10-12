@@ -15,7 +15,7 @@ Hey Google!!
 
 **Solves**: 11
 
-### Flags
+### Flag
 
 - `ironCTF{im_atl3ast_c00l_n0w}`
 

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Page</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+
+      a {
+        display: inline-block;
+        background-color: #ff6b6b;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      a:hover {
+        background-color: #ff4b4b;
+      }
+
+      h2 {
+        color: #333;
+        border-bottom: 2px solid #ff6b6b;
+        padding-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.1em;
+        color: #555;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 1.1em;
+        color: #333;
+      }
+
+      input[type="text"],
+      input[type="number"] {
+        padding: 10px;
+        font-size: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+      }
+
+      button {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #555;
+      }
+
+      pre {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-left: 5px solid #333;
+        font-family: 'Courier New', Courier, monospace;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Admin Page</h1>
+    <div class="container">
+      <a href="{{ url_for('logout') }}">Logout</a>
+      <h2>Memory Details</h2>
+      <p>Memory Usage: {{ memory_usage }}%</p>
+
+      <h2>Ping an IP</h2>
+      <form method="POST">
+        <label for="ip">IP Address:</label>
+        <input type="text" id="ip" name="ip" required />
+        <label for="count">Ping Count:</label>
+        <input type="number" id="count" name="count" value="1" min="1" required />
+        <button type="submit">Ping</button>
+      </form>
+
+      {% if ping_result is not none %}
+      <h3>Ping Results:</h3>
+      <pre>{{ ping_result }}</pre>
+      {% endif %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Short Listed
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h2>Welcome, {{ user.name }}</h2>
+    <h3>Email: {{ user.email }}</h3>
+    {% if user.role != 'recruiter' %}
+      <div>
+        <h2>Shortlisted By</h2>
+        <ul class=" portfolio-list">
+          {% for offer in offers %}
+          <li class="portfolio-item">
+              <span>Meeting Code: {{ offer.interview_link }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  </div>
+{% endblock %}

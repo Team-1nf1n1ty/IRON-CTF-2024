@@ -1,0 +1,14 @@
+services:
+  secret-notes:
+    build: ./
+    ports:
+      - 9000:5000
+    env_file:
+      - ./app/.env
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017

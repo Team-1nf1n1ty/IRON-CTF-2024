@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Create Notes
+{% endblock %}
+
+{% block content %}
+  <h1>Add New Notes</h1>
+  <form method="POST" class="login-form">
+    <div class="form-group">
+      <label>Title:</label>
+      <input type="text" name="title" required /><br />
+    </div>
+    <div class="form-group">
+      <label>Content:</label>
+      <textarea rows="4" cols="50" type="text" name="content" required></textarea>
+      <br />
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Create" class="btn-submit" />
+    </div>
+  </form>
+{% endblock %}

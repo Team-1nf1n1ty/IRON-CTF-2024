@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 1be3a17b70f15ee7f59db1aa9da433130369e20a Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727799310 +0530	commit (initial): Created movies review website
+1be3a17b70f15ee7f59db1aa9da433130369e20a f173b1c8843c3dd3e47335ecf1d656191f054995 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727799709 +0530	commit: created monitor application to monitor the server
+f173b1c8843c3dd3e47335ecf1d656191f054995 3892d93c3eb7f379e4d2991c8cd011a4336804b6 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727799904 +0530	commit: Added monitoring functionalities
+3892d93c3eb7f379e4d2991c8cd011a4336804b6 66469c24090e50c6a4a955f679c6cfff2f2380da Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727800598 +0530	commit: Added authentication mechanism
+66469c24090e50c6a4a955f679c6cfff2f2380da 020abc2b6ea5730d55b1c004f8a3751e98513202 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727800831 +0530	commit: Added logout system
+020abc2b6ea5730d55b1c004f8a3751e98513202 bcc1c6e298dac556c103d79adb9c47d6f9763cf7 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727803483 +0530	commit: Added ping functionality
+bcc1c6e298dac556c103d79adb9c47d6f9763cf7 ec2b339a90f0650cabf0d0674e747137b83a6442 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727803493 +0530	commit: Added ping functionality
+ec2b339a90f0650cabf0d0674e747137b83a6442 bcc1c6e298dac556c103d79adb9c47d6f9763cf7 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727803574 +0530	reset: moving to HEAD~1
+bcc1c6e298dac556c103d79adb9c47d6f9763cf7 bf37f003ff40d0d99f678595b4bde22fb0671712 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727803986 +0530	commit: moved src code to different folder
+bf37f003ff40d0d99f678595b4bde22fb0671712 fc3864b96769efe4c75ee7a3aecba4bb59089f5f Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727803997 +0530	commit: moved src code to different folder
+fc3864b96769efe4c75ee7a3aecba4bb59089f5f bcc1c6e298dac556c103d79adb9c47d6f9763cf7 Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727804057 +0530	reset: moving to HEAD~2
+bcc1c6e298dac556c103d79adb9c47d6f9763cf7 2bc475c08e21e2915dc3dd5432e18de48546a4ea Vigneswar-A <ugiv.rawsengiv@gmail.com> 1727804062 +0530	commit: moved src code to different folder

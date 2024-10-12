@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <title>Loan Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Welcome</h1>
+      <form action="/loan-request" method="POST">
+        <input type="number" name="amount" placeholder="Loan Amount" required />
+        <input type="text" name="reason" placeholder="Loan Reason" required />
+        <button type="submit">Request Loan</button>
+      </form>
+      <h2>Your Loans</h2>
+      <ul>
+        {% for loan in loans %}
+          <li class="loan-item">
+            <div class="loan-details">
+              <span class="loan-id">Loan ID: {{ loan._id }}</span>
+              <span class="loan-amount">Amount: ${{ loan.amount }}</span>
+              <span class="loan-status">Status: {{ loan.status }}</span>
+              {% if loan.message %}
+                <p class="loan-message">Message<br><br>{{ loan.message }}</p>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      <a href="/logout">Logout</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: wordpress:apache
+    working_dir: /var/www/html/blog
+    restart: always
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: exampleuser
+      WORDPRESS_DB_PASSWORD: examplepass
+      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_CONFIG_EXTRA: |
+        define('FORCE_SSL_ADMIN', true);
+        $$_SERVER["HTTPS"] = "on";
+
+    volumes:
+      - ./wordpress:/var/www/html/blog
+    links:
+      - db:db
+
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: exampledb
+      MYSQL_USER: exampleuser
+      MYSQL_PASSWORD: examplepass
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+  
+  jobs:
+    build:
+      dockerfile: ./Dockerfile
+    depends_on:
+      - mongodb
+  
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:80"  
+    volumes:
+        - ./proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - jobs
+      - wordpress

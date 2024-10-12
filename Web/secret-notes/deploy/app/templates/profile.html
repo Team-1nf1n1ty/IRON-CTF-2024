@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<h1>Welcome, {{ username }}!</h1>
+<img class="profile" alt={{ name }} src={{ url_for('static', filename='images/user.jpeg') }}></img>
+
+<a class="btn" href="{{ url_for('create_notes') }}">
+            Create Notes
+</a>
+
+{% endblock %}

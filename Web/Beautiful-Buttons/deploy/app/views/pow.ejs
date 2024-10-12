@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="/api.js" async defer></script>
+</head>
+<body>
+    <h2>Register</h2>
+    <form action="/pow" method="POST">
+        <!-- reCAPTCHA Widget -->
+        <div class="g-recaptcha" data-sitekey="<%= key_site %>"></div>
+        <button type="submit">Give Me Creds...</button>
+    </form>
+</body>
+</html>

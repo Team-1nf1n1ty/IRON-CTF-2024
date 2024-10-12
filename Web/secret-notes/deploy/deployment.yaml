@@ -1,0 +1,83 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-secret-notes
+  
+  labels:
+    challenge: secret-notes
+    category: web
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      challenge: secret-notes
+      category: web
+
+  template:
+    metadata:
+      labels:
+        challenge: secret-notes
+        category: web
+
+
+    spec:
+      containers:
+        - name: web-secret-notes
+          image: registry.digitalocean.com/ironctf2024/web-secret-notes
+          resources:
+            requests:
+              cpu: 100m
+              memory: 500Mi
+          ports:
+            - containerPort: 5000
+          env:
+            - name: FLAG
+              value: ironCTF{CSRF_SELFX55_C00ki3_t05s1ng_co0kie_p4th_fL4g}
+
+            - name: MONGODB_URL
+              valueFrom:
+                secretKeyRef:
+                  name: web-challenge-secret
+                  key: secret-notes-database-url
+
+            - name: SECRET_KEY
+              value: Fy3bt2lGUFvR0asasA8dBR4uVLbkzPZBXnQV49Ig3MMpiiFt3aXjYlSwixhlmNay78Hv
+
+---
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: secret-notes-internal-service
+  
+spec:
+  type: ClusterIP
+  selector:
+    challenge: secret-notes
+    category: web
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: web-secret-notes-ingress
+  
+  annotations:
+    kubernetes.io/ingress.class: nginx
+
+spec:
+  rules:
+    - host: secret-notes.abdulhaq.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: secret-notes-internal-service
+                port:
+                  number: 5000

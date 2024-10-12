@@ -11,7 +11,7 @@ You've been served a lasagna. Each layer hides secrets. Ready to dig in?
 
 **Solves**: 22
 
-### Flags
+### Flag
 
 - `ironCTF{c0mpl1c4t3d_BF_1s_fUn}`
 

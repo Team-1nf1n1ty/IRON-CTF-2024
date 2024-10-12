@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Create Portfolio{% endblock %}
+
+{% block content %}
+
+    <form class="editor" method="post">
+        <div class="input-inline">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required><br>
+        </div>
+        <textarea id="editor" class="portfolio" placeholder="<p>Hello</p>" name="portfolio_content"></textarea><br>
+        <div>
+            <input type="submit" value="Create">
+        </div>
+    </form>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename = 'editor.js') }}"></script>
+{% endblock %}

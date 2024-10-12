@@ -1,0 +1,6 @@
+Flask==2.0.1
+Flask-PyMongo==2.3.0
+Flask-Bcrypt==0.7.1
+Werkzeug==2.0.1 
+gunicorn==20.0.4
+gevent==22.10.2

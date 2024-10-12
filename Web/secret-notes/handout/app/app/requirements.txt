@@ -1,0 +1,5 @@
+flask_pymongo
+flask
+bcrypt
+load_dotenv
+requests

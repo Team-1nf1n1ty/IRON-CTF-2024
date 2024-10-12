@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Buttons</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" value="" id="" hidden>
+        <h1>Beautiful Buttons</h1>
+        <form class="generator" action="/generate" method="POST">
+            <span class="flat">
+                <label for="text">Button Text:</label>
+                <input type="text" name="text" id="text" required>
+            </span>
+            <span>
+                <label for="color">Button Color:</label>
+                <input type="color" name="bgcolor" id="color" required>
+            </span>
+            <span class="flat">
+
+                <label for="size">Button Size:</label>
+                <select name="size" id="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </span>
+            <span class="flat">
+                <label for="borderRadius">Border Radius (px):</label>
+                <input type="number" name="borderRadius" id="borderRadius" value="5">
+            </span>
+            <span>
+                <button type="submit">Generate Button</button>
+            </span>
+        </form>
+        <div id="button-preview"></div>
+    </div>
+    <script src="/main.js">
+
+    </script>
+</body>
+
+</html>

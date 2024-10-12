@@ -12,7 +12,7 @@ John's skill with flags is unmatched; perhaps the little taps he deciphers hold 
 
 **Solves**: 38
 
-### Flags
+### Flag
 
 - `ironCTF{M0RS3_UNV31L_7RU7H}`
 

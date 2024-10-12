@@ -11,7 +11,7 @@ I recently explored a fascinating fortress! While admiring the view, I came acro
 
 **Solves**: 32
 
-### Flags
+### Flag
 
 - `ironCTF{051nt_15_l0v3}`
 

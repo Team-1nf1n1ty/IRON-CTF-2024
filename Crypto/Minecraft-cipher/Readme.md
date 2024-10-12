@@ -10,7 +10,7 @@ My friend Alice has been playing Minecraft for a long time and created this chal
 **Points**: 500
 **Solves**: 8
 
-### Flags
+### Flag
 
 - `ironCTF{1cG_w!Th_Some_BruTeF0Rc3_actioN}`
 

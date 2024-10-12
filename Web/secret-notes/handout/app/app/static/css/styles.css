@@ -1,0 +1,138 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  max-width: 800px;
+}
+
+.navbar {
+  background-color: #111;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  display: inline-block;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #575757;
+  color: #ffdd57;
+  border-radius: 5px;
+}
+
+.navbar .nav-link:active {
+  background-color: #444;
+  color: #ffdd57;
+}
+
+.navbar .nav-link:first-child {
+  margin-right: auto;
+}
+
+.navbar .nav-link:last-child {
+  margin-left: auto;
+}
+
+/* Container for the login form */
+.login-container {
+  /* max-width: 400px; */
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Style individual form groups */
+.form-group {
+  text-align: left;
+}
+
+/* Style the labels */
+.login-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Style the input fields */
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the submit button */
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-submit:hover {
+  background-color: #45a049;
+}
+textarea{
+  font-size: 1rem;
+}
+.profile{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.notes{
+  border: 3px solid #111;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.title{
+  border-bottom: 3px solid #000;
+}

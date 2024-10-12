@@ -11,7 +11,7 @@ I've been told my PRNG meets international standards! However, my friend David k
 
 **Solves**: 18
 
-### Flags
+### Flag
 
 - `ironCTF{5h0uld_h4v3_1is7en3d_t0_d4v1d_a1r34dy}`
 

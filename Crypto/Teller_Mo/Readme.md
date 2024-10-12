@@ -16,7 +16,7 @@ Isn’t that strange? The flag format is `ironCTF{this_is_fake}`.
 **Points**: 500
 **Solves**: 11
 
-### Flags
+### Flag
 
 - `ironCTF{the_gold_coin_is_hidden_in_the_bin}`
 

@@ -10,7 +10,7 @@ Little John stumbled upon an article on RSA encryption. Although only partially 
 **Points**: 476
 **Solves**: 62
 
-### Flags
+### Flag
 
 - `ironCTF{@Un7_CaN_yoU_53Nd_me_THOS3_3xp@NSIon_5cREws}`
 

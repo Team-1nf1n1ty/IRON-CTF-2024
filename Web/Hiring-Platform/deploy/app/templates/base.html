@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}
+        Get Recruited
+      {% endblock %}
+    </title>
+    <!-- Include your base CSS files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'styles.css') }}" />
+    <!-- Include CodeMirror CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'codemirror.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'dracula.min.css') }}" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        {% if not_logged_in %}
+          <li>
+            <a href="{{ url_for('login') }}">Login</a>
+          </li>
+          
+          <li>
+            <a href="{{ url_for('register') }}">Register</a>
+          </li>
+          
+        {% else %}
+          <li>
+            <a href="{{ url_for('profile') }}">Profile</a>
+          </li>
+          <li>
+            <a href="{{ url_for('create_portfolio') }}">Create Portfolio</a>
+          </li>
+          <li>
+            <a href="{{ url_for('shortlisted') }}">Shortlisted</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="{{ url_for('logout') }}">Logout</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+    <div>
+      {% block content %}
+
+      {% endblock %}
+    </div>
+    <script src="{{ url_for('static', filename = 'codemirror.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'xml.min.js') }}"></script>
+    <script src="{{ url_for('static', filename = 'htmlmixed.min.js') }}"></script>
+
+    {% block scripts %}
+
+    {% endblock %}
+  </body>
+</html>

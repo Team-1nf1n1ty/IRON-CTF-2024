@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}
+
+      {% endblock %}
+    </title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="{{ url_for('index') }}" class="nav-link">Home</a>
+        {% if 'username' in session %}
+          <a href="{{ url_for('profile') }}" class="nav-link">Profile</a>
+          <a href="{{ url_for('notes') }}" class="nav-link">Notes</a>
+          <a href="{{ url_for('logout') }}" class="nav-link">Logout</a>
+        {% else %}
+          <a href="{{ url_for('login') }}" class="nav-link">Login</a>
+          <a href="{{ url_for('register') }}" class="nav-link">Register</a>
+        {% endif %}
+      </nav>
+    </header>
+
+    <div class="content">
+      {% with messages=get_flashed_messages() %}
+        {% if messages %}
+          <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endwith %}
+      {% block content %}
+
+      {% endblock %}
+    </div>
+  </body>
+</html>

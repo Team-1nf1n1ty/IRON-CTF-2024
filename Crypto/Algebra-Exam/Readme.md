@@ -12,7 +12,7 @@ Wrap the answer in uppercase with `ironCTF{}`
 
 **Solves**: 180
 
-### Flags
+### Flag
 
 - `ironCTF{MATHISFUN}`
 

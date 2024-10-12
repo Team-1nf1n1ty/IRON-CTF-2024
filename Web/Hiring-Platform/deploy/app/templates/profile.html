@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  User Profile
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <h2>Welcome, {{ user.name }}</h2>
+    <h3>Email: {{ user.email }}</h3>
+    {% if user.role != 'recruiter' %}
+      <div>
+        <h2>Created Portfolios</h2>
+        <ul class="portfolio-list">
+          {% for portfolio in portfolios %}
+            <li class="portfolio-item">
+              <a href="/portfolio/{{ portfolio.portfolio_id }}/view"><h3>{{ portfolio.title }}</h3></a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <a href="/portfolio/create"><button>Create Portfolio</button></a>
+    {% endif %}
+  </div>
+{% endblock %}

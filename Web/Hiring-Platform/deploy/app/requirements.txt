@@ -1,0 +1,5 @@
+Flask
+pymongo
+Werkzeug
+python-dotenv
+load_dotenv

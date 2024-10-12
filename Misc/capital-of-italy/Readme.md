@@ -11,7 +11,7 @@ Nothing... Just a simple pyjail.
 
 **Solves**: 19
 
-### Flags
+### Flag
 
 - `ironCTF{R0M4N_T1mes}`
 

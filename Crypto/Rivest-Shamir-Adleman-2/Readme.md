@@ -10,7 +10,7 @@ Little John has been hard at work and attempted to fix the issues in his script.
 **Points**: 491
 **Solves**: 39
 
-### Flags
+### Flag
 
 - `ironCTF{th15_TIme_You_c4Nt_f!ND_1t_hop3FUl1Y}`
 

@@ -25,7 +25,7 @@
 
 | Challenge                                                    | Solves |
 | ------------------------------------------------------------ | ------ |
-| [Algebra Exam](Crypto/Algebra-Exam/)                       | 180    |
+| [Algebra Exam](Crypto/Algebra-Exam/)                         | 180    |
 | [Dantzig's Puzzle](Crypto/Dantzigs-Puzzle/)                  | 153    |
 | [Rivest, Shamir, Adleman 1](Crypto/Rivest-Shamir-Adleman-1/) | 62     |
 | [Rivest, Shamir, Adleman 2](Crypto/Rivest-Shamir-Adleman-2/) | 39     |
@@ -47,14 +47,13 @@
 
 | Challenge                                   | Solves |
 | ------------------------------------------- | ------ |
-| [Loan App](link_to_folder)                  | 129    |
-| [b64SiteViewer](link_to_folder)             | 104    |
-| [cerealShop](link_to_folder)                | 62     |
-| [MovieReviewApp](link_to_folder)            | 53     |
-| [Hiring Platform](link_to_folder)           | 3      |
-| [Secret Notes](link_to_folder)              | 2      |
-| [Beautiful Buttons](link_to_folder)         | 0      |
-| [HTML Personality Analyzer](link_to_folder) | 0      |
+| [Loan App](Web/Loan-App/)                   | 129    |
+| [b64SiteViewer](Web/b64SiteViewer/)         | 104    |
+| [cerealShop](Web/cerealShop/)               | 62     |
+| [MovieReviewApp](Web/MovieReviewApp/)       | 53     |
+| [Hiring Platform](Web/Hiring-Platform/)     | 3      |
+| [Secret Notes](Web/secret-notes/)           | 2      |
+| [Beautiful Buttons](Web/Beautiful-Buttons/) | 0      |
 
 ## Android
 

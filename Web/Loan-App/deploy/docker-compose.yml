@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  loanapp:
+    build:
+      context: .  # Build from the current directory
+    depends_on:
+      - mongo  # Ensure MongoDB is started before the app
+    environment:
+      - SECRET_KEY=99411ea5a57083a9b99cc9e505251870943e8bd2
+      - FLASK_APP=app.py
+      - MONGO_URI=mongodb://mongo:27017/loanApp
+      - FLAG=ironCTF{L04n_4ppr0v3d_f0r_H4ck3r$!!}
+
+  mongo:
+    image: mongo  # Use the official MongoDB image
+    volumes:
+      - mongo-data:/data/db  # Persist MongoDB data
+    
+
+  loanapp-haproxy:
+    image: haproxy:2.3.5 
+    # ports:
+      # - "80:80" 
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg 
+    depends_on:
+      - loanapp 
+    networks:
+      - challenges
+
+volumes:
+  mongo-data: 
+
+networks:
+  challenges:
+    external: true
