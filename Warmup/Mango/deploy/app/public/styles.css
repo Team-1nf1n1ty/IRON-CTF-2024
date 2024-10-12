@@ -1,0 +1,207 @@
+/* Reset some default margins and paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text */
+    display: flex;
+    flex-direction: column;
+    /* Allow content stacking */
+    align-items: center;
+    min-height: 100vh;
+    /* Minimum height to avoid overflow */
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    color: #ffcc00;
+    /* Bright color for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Fruit Card Container */
+.fruit-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow wrapping of cards */
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    /* Gap between cards */
+}
+
+/* Individual Fruit Card Styles */
+.fruit-card {
+    background-color: #1e1e1e;
+    /* Darker background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Darker shadow effect */
+    width: calc(33.333% - 40px);
+    /* Adjust width to 3 cards per row */
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+/* Responsive Layout for Fruit Cards */
+@media (max-width: 768px) {
+    .fruit-card {
+        width: calc(50% - 40px);
+        /* 2 cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .fruit-card {
+        width: 100%;
+        /* 1 card per row on very small screens */
+    }
+}
+
+/* Hover effect for Fruit Cards */
+.fruit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.7);
+    /* Stronger shadow on hover */
+}
+
+/* Fruit Name Heading */
+.fruit-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ff6347;
+    /* Bright tomato color */
+}
+
+/* Nutrients and Description */
+.fruit-card p {
+    margin: 10px 0;
+    color: #cccccc;
+    /* Lighter text color for content */
+}
+
+/* Form Container */
+form {
+    background-color: #1e1e1e;
+    /* Darker background for the form */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    /* Limit form width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Dark shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    background-color: #333333;
+    /* Darker input background */
+    border: 1px solid #444444;
+    /* Dark border */
+    border-radius: 5px;
+    color: #e0e0e0;
+    /* Light text color for input */
+    font-size: 1em;
+}
+
+/* Input Placeholder Color */
+input::placeholder {
+    color: #aaaaaa;
+    /* Lighter placeholder text */
+}
+
+/* Input Focus Styles */
+input:focus {
+    border-color: #ffcc00;
+    /* Highlight border on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+/* Submit Button Styles */
+button[type="submit"] {
+    padding: 10px;
+    background-color: #ffcc00;
+    /* Bright button */
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    /* Dark text on button */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button[type="submit"]:hover {
+    background-color: #ffaa00;
+    /* Slightly darker on hover */
+}
+
+/* Admin Container */
+.admin-container {
+    background-color: #1e1e1e;
+    /* Slightly darker container background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    /* Dark shadow */
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    /* Adjust width of container */
+}
+
+/* Paragraph Text */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Flag Styling */
+p strong {
+    color: #ffcc00;
+    /* Highlight the flag in bright yellow */
+    font-weight: bold;
+}
+
+/* Link Styling */
+a {
+    color: #ffcc00;
+    /* Yellow link */
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid #ffcc00;
+    /* Add border around the link */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    /* Make the link appear as a button */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Link Hover Effect */
+a:hover {
+    background-color: #ffcc00;
+    color: #121212;
+    /* Dark text when hovered */
+}

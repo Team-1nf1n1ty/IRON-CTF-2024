@@ -1,0 +1,18 @@
+services:
+  mongo-mango:
+    image: mongo
+    ports:
+      - "227017:27017" 
+    volumes:
+      - mango-data:/data/db
+    networks:
+      - challenges
+  mango-server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" 
+
+volumes:
+  mango-data: 

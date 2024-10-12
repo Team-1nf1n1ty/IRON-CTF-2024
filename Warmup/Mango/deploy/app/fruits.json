@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Apple 🍎",
+        "description": "A sweet and crisp fruit that is usually red or green.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Potassium"
+        ]
+    },
+    {
+        "name": "Banana 🍌",
+        "description": "A soft, sweet fruit that is high in potassium.",
+        "nutrients": [
+            "Vitamin B6",
+            "Vitamin C",
+            "Potassium"
+        ]
+    },
+    {
+        "name": "Orange 🍊",
+        "description": "A juicy citrus fruit that is high in vitamin C.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Folate"
+        ]
+    },
+    {
+        "name": "Grapes 🍇",
+        "description": "Small, sweet, and juicy fruits that grow in bunches.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Copper"
+        ]
+    },
+    {
+        "name": "Strawberry 🍓",
+        "description": "A bright red, juicy fruit that is sweet and slightly tart.",
+        "nutrients": [
+            "Vitamin C",
+            "Manganese",
+            "Folate"
+        ]
+    },
+    {
+        "name": "Pineapple 🍍",
+        "description": "A tropical fruit with a sweet and tangy flavor.",
+        "nutrients": [
+            "Vitamin C",
+            "Manganese",
+            "Bromelain"
+        ]
+    },
+    {
+        "name": "Mango 🥭",
+        "description": "A sweet and juicy tropical fruit with a unique flavor.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin A",
+            "Folate"
+        ]
+    },
+    {
+        "name": "Watermelon 🍉",
+        "description": "A refreshing fruit with a high water content, perfect for summer.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin A",
+            "Hydration"
+        ]
+    },
+    {
+        "name": "Blueberry 🫐",
+        "description": "Small, round berries that are sweet and packed with antioxidants.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Antioxidants"
+        ]
+    },
+    {
+        "name": "Peach 🍑",
+        "description": "A juicy fruit with a fuzzy skin and sweet flavor.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin A",
+            "Fiber"
+        ]
+    },
+    {
+        "name": "Cherry 🍒",
+        "description": "A small, round fruit that is usually red or black and sweet or tart.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Antioxidants"
+        ]
+    },
+    {
+        "name": "Kiwi 🥝",
+        "description": "A small, brown fruit with bright green flesh that is tangy and sweet.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Fiber"
+        ]
+    },
+    {
+        "name": "Pear 🍐",
+        "description": "A sweet fruit with a soft texture and a bell-like shape.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Potassium"
+        ]
+    },
+    {
+        "name": "Plum 🍑",
+        "description": "A juicy fruit that can be sweet or tart, often purple or red.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Fiber"
+        ]
+    },
+    {
+        "name": "Coconut 🥥",
+        "description": "A hard-shelled fruit with sweet water and creamy flesh.",
+        "nutrients": [
+            "Fiber",
+            "Manganese",
+            "Copper"
+        ]
+    },
+    {
+        "name": "Raspberry 🍇",
+        "description": "A small, red fruit that is sweet and tart, high in fiber.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Manganese"
+        ]
+    },
+    {
+        "name": "Blackberry 🖤",
+        "description": "A dark purple fruit that is sweet and slightly tart.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Fiber"
+        ]
+    },
+    {
+        "name": "Papaya 🧡",
+        "description": "A tropical fruit that is sweet and orange inside, rich in enzymes.",
+        "nutrients": [
+            "Vitamin C",
+            "Folate",
+            "Fiber"
+        ]
+    },
+    {
+        "name": "Pomegranate ❤️",
+        "description": "A round fruit filled with juicy seeds that are sweet and tart.",
+        "nutrients": [
+            "Vitamin C",
+            "Vitamin K",
+            "Antioxidants"
+        ]
+    },
+    {
+        "name": "Lemon 🍋",
+        "description": "A sour citrus fruit that is yellow and high in vitamin C.",
+        "nutrients": [
+            "Vitamin C",
+            "Fiber",
+            "Potassium"
+        ]
+    }
+]

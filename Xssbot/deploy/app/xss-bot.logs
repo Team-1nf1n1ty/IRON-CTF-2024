@@ -1,0 +1,198 @@
+admin_bot-1  | ┌────────────────┬──────────────────────────────────────────────────────────────────────┐
+admin_bot-1  | │ (index)        │ Values                                                               │
+admin_bot-1  | ├────────────────┼──────────────────────────────────────────────────────────────────────┤
+admin_bot-1  | │ DISPLAY        │ 'Hi, I’m the HR. Please send me your portfolio, and I’ll ghost you.' │
+admin_bot-1  | │ NAME           │ 'hiring-platform-hr'                                                 │
+admin_bot-1  | │ APPURL         │ 'https://hiring-platform.1nf1n1ty.team'                              │
+admin_bot-1  | │ ADMIN_USERNAME │ 'a888261f7a7d8035da886bbd244ec54f4c4924f1@gmail.com'                 │
+admin_bot-1  | │ ADMIN_PASS     │ '13ae851b2a18b54dd0cb0a51d4d7aca300e82d07'                           │
+admin_bot-1  | │ APPURLREGEX    │                                                                      │
+admin_bot-1  | │ APPLIMITTIME   │ 60                                                                   │
+admin_bot-1  | │ APPLIMIT       │ 2                                                                    │
+admin_bot-1  | │ TIMEOUT        │ 10000                                                                │
+admin_bot-1  | └────────────────┴──────────────────────────────────────────────────────────────────────┘
+admin_bot-1  | Registered handler for hiring-platform-hr.
+admin_bot-1  | ┌──────────────┬────────────────────────────────────────────────────────────────────┐
+admin_bot-1  | │ (index)      │ Values                                                             │
+admin_bot-1  | ├──────────────┼────────────────────────────────────────────────────────────────────┤
+admin_bot-1  | │ DISPLAY      │ 'If I like your HTML personality, I might just give you the flag.' │
+admin_bot-1  | │ NAME         │ 'html-personality-analyzer'                                        │
+admin_bot-1  | │ APPURL       │ 'html-personality-analyzer.1nf1n1ty.team'                          │
+admin_bot-1  | │ FLAG         │ 'ironCTF{is_this__Mutation_which_lead_to_xss__a_0day?}'            │
+admin_bot-1  | │ APPURLREGEX  │                                                                    │
+admin_bot-1  | │ APPLIMITTIME │ 60                                                                 │
+admin_bot-1  | │ APPLIMIT     │ 2                                                                  │
+admin_bot-1  | │ TIMEOUT      │ 5000                                                               │
+admin_bot-1  | └──────────────┴────────────────────────────────────────────────────────────────────┘
+admin_bot-1  | Registered handler for html-personality-analyzer.
+admin_bot-1  | ┌────────────────┬──────────────────────────────────────┐
+admin_bot-1  | │ (index)        │ Values                               │
+admin_bot-1  | ├────────────────┼──────────────────────────────────────┤
+admin_bot-1  | │ DISPLAY        │ 'Can you read my secret notes'       │
+admin_bot-1  | │ NAME           │ 'secret-notes'                       │
+admin_bot-1  | │ APPURL         │ 'https://secret-notes.1nf1n1ty.team' │
+admin_bot-1  | │ ADMIN_USERNAME │ '25d1848d3fa54f4aa2404c03b63f11f9'   │
+admin_bot-1  | │ ADMIN_PASS     │ '32c53b17fb164f86a0df9b5b188edf95'   │
+admin_bot-1  | │ APPURLREGEX    │                                      │
+admin_bot-1  | │ APPLIMITTIME   │ 60                                   │
+admin_bot-1  | │ APPLIMIT       │ 2                                    │
+admin_bot-1  | │ TIMEOUT        │ 5000                                 │
+admin_bot-1  | └────────────────┴──────────────────────────────────────┘
+admin_bot-1  | Registered handler for secret-notes.
+admin_bot-1  | App listening on port 8080.
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/;id page closed in 6351.206704999999ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/93e6039b9c8e4384bddd12c70e0bcbe4/view page closed in 4285.9285439999985ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/profile page closed in 8512.220450000008ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/login page closed in 7259.472824999975ms
+admin_bot-1  | secret-notes: https://www.facebook.com/daMushrm/ page closed in 6746.117247999995ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/login page closed in 7599.594204000023ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/profile page closed in 8174.868056999985ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/notes page closed in 7256.3934640000225ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 7716.528326999978ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/71afea68e452474b9b4c122f800c8996/view page closed in 7295.973507000017ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 7470.785353999992ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1101.1189069999964ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 7021.70846600004ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 5870.437120000017ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/0170f429-97ec-4878-8934-10cf7008abba page closed in 6299.620553999906ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 953.4878190000309ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 5740.568292000098ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/notes page closed in 7238.73156100011ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/0170f429-97ec-4878-8934-10cf7008abba page closed in 6271.218639999977ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 8512.763135000016ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/66304d0f-9c18-4d93-bcaf-84c4add9c894 page closed in 6283.863842000021ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/notes page closed in 7290.670330999885ms
+admin_bot-1  | secret-notes: https://webhook.site/ff33a04c-5dd6-41b8-b6fa-1b4b476267c0?cookie=document.cookie page closed in 7567.614988000132ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/login page closed in 6252.080336000072ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7836.683480999898ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/3e0dba976de84467a20802d061c52d4b/view page closed in 5824.257095000008ms
+admin_bot-1  | secret-notes: https://nelsondurairaj.life/getflag.html page closed in 6971.934978000121ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/cdfba192-616b-48a9-9607-52336fd94c38 page closed in 1920.108464999823ms
+admin_bot-1  | ProtocolError: Protocol error (Page.navigate): Cannot navigate to invalid URL
+admin_bot-1  |     at <instance_members_initializer> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:93:14)
+admin_bot-1  |     at new Callback (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:97:16)
+admin_bot-1  |     at CallbackRegistry.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:22:26)
+admin_bot-1  |     at Connection._rawSend (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:89:26)
+admin_bot-1  |     at CdpCDPSession.send (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/CDPSession.js:66:33)
+admin_bot-1  |     at navigate (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:172:51)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:150:17)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/bb6e0212-55aa-4c91-90cc-7489a36cafaf page closed in 990.3387919999659ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/2eea36c2-5db4-451a-8b3e-f5766076e9fe page closed in 999.81688700011ms
+admin_bot-1  | secret-notes: https://admin-bot.1nf1n1ty.team/login page closed in 8677.75685600005ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/df76c93d-40ef-4673-8dff-a2ab2f0ff8a8 page closed in 2055.4825289999135ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 997.0161529998295ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1028.5557220000774ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/033d8acfef924defb887214ff4a2d863 page closed in 6577.799458000343ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/1594d6f8ab00484bb6953e17e3d9370a/view page closed in 6631.372769000009ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1435.2455130000599ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/7fc7e96ac0a848568d808506f7870e8b/view page closed in 6869.817024999764ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/2c3d5183991a4603bcefe7e4aa016bc3/view page closed in 6910.746405999642ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7774.312712000217ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/e534e52c1ef5499d84f480f3e591914d/view page closed in 7055.277821999975ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7471.341759999748ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7726.184662999585ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/ee95a3d846a84a31bba84fc1a80c9b02/view page closed in 5112.700350000057ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 949.8989559998736ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/28be1a1da27941cd97bf3e0627cd287d/view page closed in 5003.6705180001445ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/analyze page closed in 537.9662069999613ms
+admin_bot-1  | ProtocolError: Protocol error (Page.navigate): Cannot navigate to invalid URL
+admin_bot-1  |     at <instance_members_initializer> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:93:14)
+admin_bot-1  |     at new Callback (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:97:16)
+admin_bot-1  |     at CallbackRegistry.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/common/CallbackRegistry.js:22:26)
+admin_bot-1  |     at Connection._rawSend (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Connection.js:89:26)
+admin_bot-1  |     at CdpCDPSession.send (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/CDPSession.js:66:33)
+admin_bot-1  |     at navigate (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:172:51)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:150:17)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7795.047571000177ms
+admin_bot-1  | secret-notes: https://admin-bot.1nf1n1ty.team/secret-notes page closed in 6736.540980999824ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 7511.177023999859ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1843.6993810003623ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 8520.671606000047ms
+admin_bot-1  | secret-notes: https://hl6yzqig41ol0wfmlulvs4cnaeg545su.oastify.com page closed in 6453.641964999959ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/notes page closed in 7214.417296000291ms
+admin_bot-1  | secret-notes: https://webhook.site/76e8937f-0a6b-42ad-8c07-2811c95f4c16 page closed in 8863.177959000226ms
+admin_bot-1  | Error: net::ERR_ABORTED at https://exfilme.online
+admin_bot-1  |     at navigate (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:183:27)
+admin_bot-1  |     at async Deferred.race (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:36:20)
+admin_bot-1  |     at async CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:149:25)
+admin_bot-1  |     at async CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:20)
+admin_bot-1  |     at async Object.execute (/app/handlers/secret-notes.js:33:13)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | Error: net::ERR_ABORTED at https://exfilme.online
+admin_bot-1  |     at navigate (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:183:27)
+admin_bot-1  |     at async Deferred.race (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:36:20)
+admin_bot-1  |     at async CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:149:25)
+admin_bot-1  |     at async CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:20)
+admin_bot-1  |     at async Object.execute (/app/handlers/secret-notes.js:33:13)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | secret-notes: https://exfilme.online page closed in 12855.110190999694ms
+admin_bot-1  | secret-notes: https://exfilme.online page closed in 8533.804448000155ms
+admin_bot-1  | TimeoutError: Navigation timeout of 5000 ms exceeded
+admin_bot-1  |     at new Deferred (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:59:34)
+admin_bot-1  |     at Deferred.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+admin_bot-1  |     at new LifecycleWatcher (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:69:60)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:148:29)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | TimeoutError: Navigation timeout of 5000 ms exceeded
+admin_bot-1  |     at new Deferred (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:59:34)
+admin_bot-1  |     at Deferred.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+admin_bot-1  |     at new LifecycleWatcher (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:69:60)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:148:29)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/e5b89c93-8f03-43ff-a0ed-c5301b67f203 page closed in 1154.0456540007144ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team page closed in 7480.463089000434ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/blog/ page closed in 5776.7674940004945ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/profile page closed in 6524.375276999548ms
+admin_bot-1  | TimeoutError: Navigation timeout of 5000 ms exceeded
+admin_bot-1  |     at new Deferred (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:59:34)
+admin_bot-1  |     at Deferred.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+admin_bot-1  |     at new LifecycleWatcher (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:69:60)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:148:29)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | secret-notes: https://damushrm.github.io/secret-notes.html page closed in 7191.401297000237ms
+admin_bot-1  | secret-notes: https://webhook.site/ff33a04c-5dd6-41b8-b6fa-1b4b476267c0 page closed in 7934.178026000038ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1008.0625749994069ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/ page closed in 1027.0442120004445ms
+admin_bot-1  | hiring-platform-hr: https://hiring-platform.1nf1n1ty.team/portfolio/5f8cf00ceb4c4b2f97c82e7c39529831/view page closed in 6565.772772000171ms
+admin_bot-1  | html-personality-analyzer: https://html-personality-analyzer.1nf1n1ty.team/result/504ab3e1-643c-41cc-a89a-aee313e23da0 page closed in 1021.5663839997724ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/ page closed in 8389.738642000593ms
+admin_bot-1  | TimeoutError: Navigation timeout of 5000 ms exceeded
+admin_bot-1  |     at new Deferred (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:59:34)
+admin_bot-1  |     at Deferred.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+admin_bot-1  |     at new LifecycleWatcher (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:69:60)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:148:29)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/login page closed in 7187.894303000532ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/login page closed in 6280.424837000668ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/bot/secret-notes.js page closed in 7222.506302000023ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/profile page closed in 7218.201946999878ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/profile'console.log("ola") page closed in 7151.795567999594ms
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/notes page closed in 7208.0056800004095ms
+admin_bot-1  | TimeoutError: Navigation timeout of 5000 ms exceeded
+admin_bot-1  |     at new Deferred (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:59:34)
+admin_bot-1  |     at Deferred.create (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/Deferred.js:21:16)
+admin_bot-1  |     at new LifecycleWatcher (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/LifecycleWatcher.js:69:60)
+admin_bot-1  |     at CdpFrame.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/cdp/Frame.js:148:29)
+admin_bot-1  |     at CdpFrame.<anonymous> (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/util/decorators.js:98:27)
+admin_bot-1  |     at CdpPage.goto (/app/node_modules/puppeteer-core/lib/cjs/puppeteer/api/Page.js:567:43)
+admin_bot-1  |     at Object.execute (/app/handlers/secret-notes.js:33:24)
+admin_bot-1  |     at async /app/index.js:92:30
+admin_bot-1  | secret-notes: https://secret-notes.1nf1n1ty.team/create?content=console.log('test') page closed in 7710.566780999303ms

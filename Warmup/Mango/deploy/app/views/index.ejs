@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango 🥭</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <h1>Fruits and Nutrients</h1>
+    <div class="fruit-container">
+        <% fruits.forEach(fruit=> { %> <div class="fruit-card">
+                <h2>
+                    <%= fruit.name %>
+                </h2>
+                <p><strong>Nutrients:</strong>
+                    <%= fruit.nutrients.join(', ') %></p>
+            <p><strong>Description:</strong> <%= fruit.description %></p>
+        </div>
+        <% }) %>
+    </div>
+    <a href="/admin/login">Admin Login</a>
+</body>
+
+</html>
