@@ -108,4 +108,5 @@ matplotlib.pyplot.show()
 ```
 
 The comments in the code indicates which letter the set of equations corresponds to and spells out: M-A-T-H-I-S-F-U-N
+
 FLAG: ironCTF{MATHISFUN}
