@@ -58,10 +58,10 @@ while i<len(encoded):
     if (not isFound):
         break
 
-print(flag)
+print(flag.lower())
 ```
-
-flag: ironCTF{the_gold_coin_is_hidden_in_the_bin}
+Modify the answer according to the flag format
+FLAG: ironCTF{the_gold_coin_is_hidden_in_the_bin}
 
 
 
