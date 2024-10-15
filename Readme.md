@@ -35,13 +35,13 @@
 
 ## Forensics
 
-| Challenge                         | Solves |
-| --------------------------------- | ------ |
-| [Random Pixels](link_to_folder)   | 140    |
-| [Game of Hunt](link_to_folder)    | 112    |
-| [Uncrackable Zip](link_to_folder) | 26     |
-| [Air Messages](link_to_folder)    | 10     |
-| [8-ball game](link_to_folder)     | 1      |
+| Challenge                            | Solves |
+| ------------------------------------ | ------ |
+| [Random Pixels](link_to_folder)      | 140    |
+| [Game of Hunt](link_to_folder)       | 112    |
+| [Uncrackable Zip](link_to_folder)    | 26     |
+| [Air Messages](link_to_folder)       | 10     |
+| [8-ball game](Forensics/8-ball game) | 1      |
 
 ## Web
 
