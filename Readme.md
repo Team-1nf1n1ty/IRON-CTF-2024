@@ -41,7 +41,7 @@
 | [Game of Hunt](link_to_folder)       | 112    |
 | [Uncrackable Zip](link_to_folder)    | 26     |
 | [Air Messages](link_to_folder)       | 10     |
-| [8-ball game](Forensics/8-ball game) | 1      |
+| [8-ball game](Forensics/8-ball_game) | 1      |
 
 ## Web
 
