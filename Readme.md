@@ -37,10 +37,10 @@
 
 | Challenge                            | Solves |
 | ------------------------------------ | ------ |
-| [Random Pixels](link_to_folder)      | 140    |
-| [Game of Hunt](link_to_folder)       | 112    |
-| [Uncrackable Zip](link_to_folder)    | 26     |
-| [Air Messages](link_to_folder)       | 10     |
+| [Random Pixels](Forensics/random-pixels)      | 140    |
+| [Game of Hunt](Forensics/game-of-hunt)       | 112    |
+| [Uncrackable Zip](Forensics/Uncrackable-Zip/)    | 26     |
+| [Air Messages](Forensics/air-message)       | 10     |
 | [8-ball game](Forensics/8-ball_game) | 1      |
 
 ## Web
