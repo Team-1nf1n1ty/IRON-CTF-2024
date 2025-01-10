@@ -1,0 +1,63 @@
+name: "Uncrackable Zip"
+category: Forensics
+description: "I forgot to ask my friend for the password to access the secret webpage, and now he's unavailable. I've tried guessing the password, but it's been unsuccessful. My friend is very security-conscious, so he wouldn't use an easy-to-guess password. He's also an Emmet enthusiast who relies heavily on code generation shortcuts. Can you help me figure out how to access the secret webpage?<br><b>Author</b>: `AbdulHaq`"
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 250
+    minimum: 100
+
+image: null
+
+protocol: null
+
+host: null
+
+connection_info: null
+
+attempts: 0 # for unlimited flag submissions attempts set to 0
+
+flags:
+    - ironCTF{Wh0_us35_Z1pCrypt0_wh3n_kn0wn_PlA1nt3xt_a7t4cks_ex1s7?}
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    # }
+    # - {
+    #     type: "static",
+    #     content: "flag{wat}",
+    #     data: "case_insensitive",
+    # }
+    # - {
+    #     type: "regex",
+    #     content: "(.*)STUFF(.*)",
+    #     data: "case_insensitive",
+    # }
+
+tags:
+    - forensics
+
+files:
+    - handout/website.zip
+
+# hints:
+#     - {
+#         content: "This hint costs points",
+#         cost: 10
+#     }
+#     - This hint is free
+
+# Requirements are used to make a challenge require another challenge to be
+# solved before being available.
+# Can be removed if unused
+# Accepts challenge names as strings or challenge IDs as integers
+requirements:
+     - "Welcome"
+
+#     - "Are you alive"
+
+state: visible
+
+version: "0.1"
