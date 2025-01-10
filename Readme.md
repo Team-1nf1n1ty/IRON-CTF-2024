@@ -59,9 +59,9 @@
 
 | Challenge                               | Solves |
 | --------------------------------------- | ------ |
-| [Fire in the Base Camp](link_to_folder) | 84     |
-| [Secure Vault](link_to_folder)          | 19     |
-| [Is this Android](link_to_folder)       | 11     |
+| [Fire in the Base Camp](adding_soon) | 84     |
+| [Secure Vault](adding_soon)          | 19     |
+| [Is this Android](adding_soon)       | 11     |
 
 ## PWN
 
@@ -80,11 +80,11 @@
 
 | Challenge                                  | Solves |
 | ------------------------------------------ | ------ |
-| [sELF Sufficient](link_to_folder)          | 22     |
+| [sELF Sufficient](adding_soon)          | 22     |
 | [Big Lasagna](Rev/BigLasagna/)             | 15     |
-| [rusty++_Nightmare](link_to_folder)        | 3      |
-| [Super Secure Login Shell](link_to_folder) | 2      |
-| [Multilingual Wonderland](link_to_folder)  | 0      |
+| [rusty++_Nightmare](adding_soon)        | 3      |
+| [Super Secure Login Shell](adding_soon) | 2      |
+| [Multilingual Wonderland](adding_soon)  | 0      |
 
 ## Game Hacking
 
