@@ -1,3 +1,4 @@
+# Flag - ironCTF{W3LC0M370D5P}
 import numpy as np
 from scipy.io import wavfile
 
