@@ -16,4 +16,4 @@ This will serve as the password for the pastebin link.
 
 Open to get the flag.
 
-The flag is IronCTF{}
+The flag is ironCTF{im_atl3ast_c00l_n0w}
